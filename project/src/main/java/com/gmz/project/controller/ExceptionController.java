@@ -13,7 +13,7 @@ public class ExceptionController {
         if(blog == null){
             throw new NotFoundException("博客找不到");
         }*/
-        int i = 9/0;
+//        int i = 9/0;
         return "index";
     }
 }
